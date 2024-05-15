@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" >
+    <listeners>
+        <listener class-name="failtestscriptexecution.AutomaticallyReRun"/>
+    </listeners>
+   <!-- <groups>
+        <run>
+            <include name="smoke"/>
+
+        </run>
+    </groups> -->
+    <!--<parameter name="CourseName" value="java"/>
+    <parameter name="cityName" value="pune"/>
+    <parameter name="browserName" value="chrome"/> -->
+    <test verbose="2" preserve-order="true" parallel="true" thread-count="3" name="C:/Users/hp/IdeaProjects/Maven_06feb_2024">
+        <classes>
+
+            <!-- <class name="mavenDemo.testNgExample">
+                <methods>
+                    <include name="basicOfTestNg1"/>
+                    <include name="basicOfTestNg2"/>
+                </methods>
+            </class>
+            <class name="testng.annotations.beforeAfterMethodAnotherExample">
+                <methods>
+                    <include name="testcase1"/>
+                    <include name="testcase2"/>
+                </methods>
+            </class>
+            <class name="testng.annotations.beforeAfterMethodExample">
+                <methods>
+                    <include name="annotationMethod1"/>
+                    <include name="annotationMethod2"/>
+                </methods>
+            </class>
+            <class name="testng.annotations.beforeClassExample">
+                <methods>
+                    <include name="testcase1"/>
+                    <include name="testcase2"/>
+                </methods>
+            </class>
+            <class name="testng.annotations.dependsOnGroupExample">
+                <methods>
+                    <include name="verifyCardManagement"/>
+                </methods>
+            </class>
+            <class name="testng.annotations.disableTestCaseExample">
+                <methods>
+                    <include name="verifyNewHomeLogin"/>
+                    <include name="verifyLMS"/>
+                </methods>
+            </class>
+            <class name="testng.annotations.invocationCountExample">
+                <methods>
+                    <include name="invocationCountDemo"/>
+                </methods>
+            </class>
+            <class name="testng.annotations.testng_emptyPriority">
+                <methods>
+                    <include name="priorityDemo_Z"/>
+                    <include name="priorityDemo_F"/>
+                    <include name="priorityDemo_N"/>
+                </methods>
+            </class>
+            <class name="testng.annotations.testng_negativePriority">
+                <methods>
+                    <include name="priorityDemo_Z"/>
+                    <include name="priorityDemo_F"/>
+                    <include name="priorityDemo_N"/>
+                    <include name="priorityDemo_I"/>
+                    <include name="priorityDemo_H"/>
+                </methods>
+            </class>
+            <class name="testng.annotations.testng_twoEmptyPriority">
+                <methods>
+                    <include name="priorityDemo_Z"/>
+                    <include name="priorityDemo_F"/>
+                    <include name="priorityDemo_N"/>
+                    <include name="priorityDemo_I"/>
+                </methods>
+            </class>
+            <class name="testng.annotations.BeforeAfterTestngExample"/>
+            <class name="testng.annotations.beforeClassExample"/>
+            <class name="Assert.HardAssertExample"/>
+             <class name="Assert.SoftAssertExample"/>
+            <class name="mavenDemo.testNgExample"/>
+            <class name="parameterization.ParameterizationExample"/>
+            <class name="parameterization.NormalDataProvider"/> -->
+
+
+           <!-- <class name="Assert.HardAssertExample"/>
+            <class name="Assert.SoftAssertExample"/>
+            <class name="testng.annotations.dependsOnGroupExample">
+                <methods>
+                    <include name="verifyCardManagement"/>
+                </methods>
+            </class>
+            <class name="parameterization.DataProviderWithExcel"/> -->
+            <class name="testng.annotations.testngPriority"/>
+
+        </classes>
+    </test>
+</suite>
