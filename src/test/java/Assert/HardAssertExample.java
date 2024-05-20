@@ -20,6 +20,7 @@ public class HardAssertExample {
         Assert.assertTrue(username.isDisplayed(), "text box should be displayed");
         Assert.assertEquals(title, "Rediffmail", "should be match");
         System.out.println("hello everyone , good evening");
+        System.out.println("new check github");
         //driver.close();
         driver.close();
 
