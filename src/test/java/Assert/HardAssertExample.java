@@ -15,10 +15,14 @@ public class HardAssertExample {
         driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 
         driver.manage().window().maximize();
-      String title = driver.getTitle();
-    WebElement username = driver.findElement(By.id("login1"));
-    Assert.assertTrue(username.isDisplayed(),"text box should be displayed");
-        Assert.assertEquals(title,"Rediffmail","should be match");
+        String title = driver.getTitle();
+        WebElement username = driver.findElement(By.id("login1"));
+        Assert.assertTrue(username.isDisplayed(), "text box should be displayed");
+        Assert.assertEquals(title, "Rediffmail", "should be match");
+        System.out.println("hello everyone , good evening");
+        //driver.close();
         driver.close();
+
+
     }
 }
